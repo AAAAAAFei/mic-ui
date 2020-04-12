@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio.List 快照测试 renders correctly basic 1`] = `
+<Image
+  source={
+    Object {
+      "uri": "https://assets.souche.com/assets/sccimg/common/icon/toastcollection.png",
+    }
+  }
+  style={
+    Array [
+      Object {},
+      Object {
+        "height": 16,
+        "width": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Radio.List 快照测试 renders correctly with color="#ff571a" 1`] = `
+<Image
+  source={
+    Object {
+      "uri": "https://assets.souche.com/assets/sccimg/common/icon/toastcollection.png",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "tintColor": "#0000ff",
+      },
+      Object {
+        "height": 16,
+        "width": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Radio.List 快照测试 renders correctly with size="xl" 1`] = `
+<Image
+  source={
+    Object {
+      "uri": "https://assets.souche.com/assets/sccimg/common/icon/toastcollection.png",
+    }
+  }
+  style={
+    Array [
+      Object {},
+      Object {
+        "height": 24,
+        "width": 24,
+      },
+      undefined,
+    ]
+  }
+/>
+`;

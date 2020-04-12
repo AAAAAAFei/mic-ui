@@ -6,6 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "16.11.0",
+    "react-dom": "^16.13.1",
+    "react-native": "0.62.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AAAAAAFei/mic-ui.git"

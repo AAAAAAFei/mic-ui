@@ -1,0 +1,59 @@
+Arguments: 
+  /Users/aaaaaafei/.nvm/versions/node/v10.15.3/bin/node /Users/aaaaaafei/.nvm/versions/node/v10.15.3/bin/yarn
+
+PATH: 
+  /Users/aaaaaafei/.nvm/versions/node/v10.15.3/bin:/Users/aaaaaafei/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/aaaaaafei/flutter/bin:/Users/aaaaaafei/Library/Android/sdk/tools:/Users/aaaaaafei/Library/Android/sdk/platform-tools:/Users/aaaaaafei/.rvm/bin:/Users/aaaaaafei/Library/Android/sdk/tools:/Users/aaaaaafei/Library/Android/sdk/platform-tools:/Users/aaaaaafei/.rvm/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/aaaaaafei/Documents/MIC/mic-ui/package.json: Unexpected token } in JSON at position 380
+      at JSON.parse (<anonymous>)
+      at /Users/aaaaaafei/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/aaaaaafei/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/aaaaaafei/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mic-ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "devDependencies": {
+      "prop-types": "^15.5.10",
+      "react": "16.0.0-alpha.6",
+      "react-dom": "^15.6.1",
+      "react-native": "0.43.4",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AAAAAAFei/mic-ui.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AAAAAAFei/mic-ui/issues"
+    },
+    "homepage": "https://github.com/AAAAAAFei/mic-ui#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
