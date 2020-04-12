@@ -232,8 +232,8 @@ Button.propTypes = {
     pressedColor: PropTypes.string,
     ghostDisabledColor: PropTypes.string,
     primaryDisabledColor: PropTypes.string,
-    style: View.propTypes.style,
-    textStyle: Text.propTypes.style,
+    // style: View.propTypes.style,
+    // textStyle: Text.propTypes.style,
 };
 
 Button.defaultProps = {
