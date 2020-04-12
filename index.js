@@ -1,3 +1,3 @@
 module.exports = {
-    test: 'test'
+    get Button() { return require('./button').default; },
 }
